@@ -1,0 +1,11 @@
+:root { --bg: #f4f6f8; --text: #2c3e50; --accent: #006847; --border: #ccd1d9; }
+body { font-family: 'Arial', sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.6; }
+h1, h2, h3, .logo { font-family: 'Helvetica', sans-serif; margin: 0; }
+.navbar { background: var(--accent); color: white; padding: 1rem 2rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.logo { font-size: 1.5rem; font-weight: bold; }
+.container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+.hero { text-align: center; margin-bottom: 2rem; }
+.verification-section { background: white; padding: 1.5rem; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border: 1px solid var(--border); }
+.verification-section h2 { margin-bottom: 1rem; border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; }
+.verified-record { border-bottom: 1px solid #eee; padding: 0.8rem 0; font-size: 0.95rem; display: flex; justify-content: space-between; }
+.empty-msg { color: #7f8c8d; font-style: italic; text-align: center; }
